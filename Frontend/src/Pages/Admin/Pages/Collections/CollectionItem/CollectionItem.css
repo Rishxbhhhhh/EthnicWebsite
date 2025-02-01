@@ -1,0 +1,33 @@
+.imagePreviewModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  box-shadow: 24;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  display: grid;
+}
+
+.previewSelectedImageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.collectionName{
+  font-weight: 600 !important;
+}
+
+.collectionName:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+li button {
+  margin-top: 0px;
+}

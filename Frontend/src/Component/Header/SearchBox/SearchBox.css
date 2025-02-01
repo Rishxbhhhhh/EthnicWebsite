@@ -1,0 +1,26 @@
+.headerSearch{
+    padding: 5px;
+    border-radius: 10px;
+    background-color:rgb(231, 231, 231);
+    width: 30%;
+}
+.headerSearch Button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(224, 224, 224);
+    border-radius: 50%;
+    min-width: 36px;
+}
+.headerSearch input { 
+    width: 30rem;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: rgb(231, 231, 231);
+    outline: none;
+}
+
+.headerSearch Button:hover{
+    color: black;
+    background-color: rgb(182, 182, 182);
+
+}

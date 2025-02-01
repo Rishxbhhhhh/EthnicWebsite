@@ -1,0 +1,8 @@
+.upload-file-image {
+    padding: 8px 20px;
+    border-radius: 8px;
+    text-transform: none;
+    background-color: #1b4061;
+    color: #fff;
+    align-self: flex-start;
+  }

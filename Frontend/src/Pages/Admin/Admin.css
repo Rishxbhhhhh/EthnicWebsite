@@ -1,0 +1,83 @@
+.accounts button {
+  color: black !important;
+}
+
+.accounts button svg {
+  color: black !important  ;
+}
+
+.left-container {
+  width: 20%;
+  height: 57rem;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.adminLogo {
+  width: 65%;
+  width: 250px; /* Fixed width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Prevent it from overflowing the container */
+  object-fit: contain; /* Ensures the image doesn't distort */
+}
+
+.admin-navBar {
+  text-wrap: nowrap;
+  height: fit-content;
+}
+
+.admin-navBar ul {
+  width: -webkit-fill-available;
+  max-width: 250px;
+  border: 2px solid rgba(231, 171, 6, 0.733);
+  border-radius: 5px;
+  list-style: none;
+  padding: 7px !important;
+}
+
+.admin-navBar ul li {
+  margin: 10px 0;
+  max-width: 195px;
+  list-style: none;
+  padding: 10px;
+}
+
+.admin-panel {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  width: 250px;
+  background-color: #09243c;
+  color: white;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-navBar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-navBar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.admin-navBar ul li:hover {
+  background-color: #ddd;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.MuiBox-root {
+  margin: 0px !important;
+}

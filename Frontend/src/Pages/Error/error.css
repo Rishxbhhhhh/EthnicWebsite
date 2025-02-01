@@ -1,0 +1,25 @@
+.container-fluid-error {
+  text-align: center;
+}
+.errorHead {
+  font-size: 60px;
+  font-weight: 700;
+}
+.container-fluid-error p {
+  font-size: 30px;
+}
+.container-fluid-error p button {
+  padding: 1px;
+  border-radius: 20px;
+}
+.container-fluid-error p button a {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(29, 168, 130);
+  padding: 10px;
+  color: rgb(244, 244, 244);
+  border-radius: 10px;
+}
+.container-fluid-error p button a:hover {
+  background-color: rgb(1, 164, 105);
+}

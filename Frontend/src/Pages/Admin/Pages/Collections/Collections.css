@@ -1,0 +1,85 @@
+.addCollectionBox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white !important;
+  border-radius: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin: auto;
+  background: black !important;
+  font-weight: 600 !important;
+  font-family: monospace !important;
+}
+
+.uploadFile {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-transform: none;
+}
+
+.previewSelectedImageBox {
+  max-width: 70px;
+  max-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.collectionName {
+    font-weight: 600;
+}
+.collectionName:hover {
+    text-decoration: underline;
+}
+
+.imagePreviewModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  box-shadow: 24;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  display: grid;
+}
+
+.imagePreviewModal img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.collectionDeletePopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 24px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+Button {
+    background: white !important;
+    color: black !important;
+}
+Button:hover {
+    background: rgb(206, 206, 206) !important;
+    color: white;
+}
+
+
+
+
+.collection-container{
+  margin: 40px 0px;
+}

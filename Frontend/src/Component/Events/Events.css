@@ -1,0 +1,25 @@
+.carousel-container {
+    white-space: nowrap; /* Prevent wrapping of items */
+    cursor: grab; /* Show grab cursor on hover */
+  }
+  
+  .carousel-container:active {
+    cursor: grabbing; /* Show grabbing cursor when dragging */
+  }
+  
+  .carousel-content {
+    display: flex; /* Arrange items in a row */
+    gap: 20px; /* Space between items */
+  }
+  
+  .carousel-item {
+    display: inline-block; /* Make each item inline */
+    font-size: 24px;
+    padding: 20px;
+    background: #3498db;
+    color: white;
+    border-radius: 5px;
+    min-width: 150px; /* Set a minimum width for each item */
+    text-align: center;
+  }
+  

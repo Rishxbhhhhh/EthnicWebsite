@@ -1,0 +1,21 @@
+.new-product-conatiner {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 25% !important;
+}
+.buttonContainer{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewAllButton {
+    
+    background: black !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: monospace !important;
+    padding: 10px 23px !important;
+}

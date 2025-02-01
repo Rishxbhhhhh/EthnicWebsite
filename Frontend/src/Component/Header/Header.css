@@ -1,0 +1,313 @@
+.logoWrapper img {
+  margin-top: 20px;
+  width: 80%; /* Set your desired size */
+  object-fit: contain;
+}
+
+.container {
+  max-width: 85%;
+}
+
+header {
+  background: #09243c;
+}
+
+header .headerSearch {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 50px;
+  background: white;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+header .headerSearch input {
+  background: transparent !important;
+  outline: none !important;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.9);
+  width: 90%;
+  height: 40px;
+  border: 0px !important;
+  padding: 0px 20px !important;
+}
+
+header .headerSearch button {
+  position: absolute;
+  top: 4px;
+  right: 15px;
+  z-index: 100;
+  min-width: 30px !important;
+  min-height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  color: #000;
+}
+
+header .headerSearch button svg {
+  font-size: 22px;
+}
+
+header .part3 .circle {
+  align-items: center;
+  justify-content: center;
+  min-width: 40px !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  color: #000;
+}
+header .part3 .circle:hover{
+ background-color: rgb(194, 194, 194);
+}
+header .part3 .circle svg {
+  font-size: 22px;
+}
+
+.part3 .price {
+  font-weight: 500 !important;
+}
+
+.cartTab button {
+  background: #ffffff;
+}
+
+.cartTab svg {
+  color: rgb(0, 0, 0);
+}
+
+.cartTab .count {
+  position: absolute;
+  top: -5px;
+  left: 23px;
+  background-color: rgb(224, 61, 49);
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+.container-nav {
+  background: #09243c;
+}
+
+.container-nav .btn {
+  color: white !important;
+  background: #09243c !important;
+  padding: 5px 10px !important;
+}
+
+/* Base styles for the navigation bar */
+.navPart .btn {
+  position: relative;
+  font-size: 16px; /* Adjust font size as needed */
+  padding: 10px 20px; /* Adjust padding */
+  background: transparent;
+  border: none;
+  color: #000; /* Text color */
+  text-transform: uppercase; /* Optional, for a more formal look */
+  cursor: pointer;
+  outline: none;
+}
+
+/* Add the underline effect */
+.navPart .btn::after {
+  content: ""; /* Create an empty pseudo-element */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; /* Start with no underline */
+  height: 2px; /* Thickness of the underline */
+  background-color: #ffffff; /* Color of the underline */
+  transition: width 0.3s ease; /* Animate the underline width */
+}
+
+/* On hover, expand the underline */
+.navPart .btn:hover::after {
+  width: 100%; /* Make the underline span the full width */
+}
+
+/* Optional: Add hover color effect */
+.navPart .btn:hover {
+  color: #f7d54df6 !important; /* Change text color on hover (can be customized) */
+}
+
+/* Responsive Styles */
+
+/* For screens smaller than 768px (mobile/tablet) */
+@media (max-width: 767px) {
+  .navPart {
+    flex-direction: column; /* Stack the buttons vertically */
+    align-items: center; /* Center buttons */
+  }
+
+  .navPart .btn {
+    width: 100%; /* Make buttons take full width */
+    padding: 10px; /* Adjust padding to make the buttons more touch-friendly */
+    text-align: center; /* Center the text in buttons */
+    margin-bottom: 10px; /* Add space between buttons */
+  }
+
+  /* Optionally, you can change the font size for smaller screens */
+  .navPart .btn {
+    font-size: 10px;
+  }
+}
+
+/* For screens between 768px and 1024px (tablet landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navPart {
+    flex-direction: row; /* Keep buttons in a row */
+    justify-content: space-around; /* Space buttons evenly */
+  }
+
+  .navPart .btn {
+    font-size: 12px; /* Slightly smaller font size for medium screens */
+    padding: 8px 18px; /* Adjust padding for medium screens */
+  }
+}
+
+/* For larger screens (desktop) */
+@media (min-width: 1602) {
+  .navPart {
+    flex-direction: row; /* Keep buttons in a row */
+    justify-content: space-between; /* Space buttons evenly */
+  }
+
+  .navPart .btn {
+    font-size: 16px; /* Larger font size for desktop */
+    padding: 10px 20px; /* Adjust padding for desktop */
+  }
+}
+
+.summary-conatiner {
+  position: absolute;
+}
+
+.dropdown-container {
+  width: 10rem;
+  position: relative;
+  background: white;
+  padding-left: 1px !important;
+  top: 118px;
+  left: 11rem;
+  z-index: 1;
+}
+
+
+.dropdown-container li{
+  text-align: start;
+  width: 11em;
+  margin-left: 10px;
+  color: rgb(71, 71, 71);
+  font-weight: 4  00;
+  font-size: 12px;
+  list-style: none;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.dropdown-container button:hover{
+  background: rgb(224, 224, 224);
+}
+
+.dropdown-container li a{
+  text-decoration: none;
+  
+}
+
+.seprator{
+  border-top: 1px solid #3d3d3d56; /* Change color as needed */
+  height: 0; 
+}
+
+nav .dropdown_menu {
+  position: absolute;
+  top: 8%;
+  width: 240px;
+  height: auto;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 10px 20px !important ;
+  z-index: 100;
+}
+
+nav li:hover .dropdown_menu {
+  border: 4px solid #ffa600;
+  top: 17%;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+
+.dropdown_menu li {
+  width: 100% !important;
+  list-style: none;
+  padding-left: 0px;
+}
+.dropdown_menu li button {
+  width: 92% !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+  color: #000 !important;
+  text-transform: capitalize;
+  font-size: 5px !important;
+  padding: 5px !important;
+  margin-left: 10px;
+}
+
+.dropdown_menu li button:hover {
+  background-color: #f1f1f1;
+  opacity: 0.7;
+  margin-right: 0px;
+}
+
+.megaMart {
+  width: 95% !important;
+  left: 50px;
+  padding: 20px;
+}
+
+.megaMart .row {
+  display: flex;
+  justify-content: space-between;
+}
+.megaMart .col h3 {
+  font-size: 14px;
+  padding: 0px 15px;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+.megaMart ul {
+  padding-left: 15px;
+}
+.megaMart .col ul li {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.megaMart .col ul li a {
+  color: rgba(87, 87, 87, 0.918);
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.sep-line {
+  margin-left: 15px;
+  width: 50px;
+  border-top: 3px solid #ffa600; /* Change color as needed */
+  height: 0; /* Ensures the separator takes no height */
+  margin-bottom: 15px;
+}
+
+.username {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 600;
+}

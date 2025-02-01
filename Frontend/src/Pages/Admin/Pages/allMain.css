@@ -1,0 +1,143 @@
+.carousel-data {
+  display: grid;
+}
+
+.corousel-row-data {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  border: 2px solid rgb(201, 201, 201);
+  border-radius: 5px;
+  margin: 10px 0px;
+  align-items: center;
+}
+
+.corousel-row-data p {
+  margin: 0;
+  margin-left: 10px;
+  width: 100% ;
+}
+
+.inner-image-container {
+  display: flex;
+  justify-content: end;
+}
+
+.inner-image-container img {
+  cursor: pointer;
+}
+
+.collection-row-data {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #09243c23;
+  margin: 0px 0px;
+  padding: 10px;
+  background-color: #fffffffb;
+}
+
+.collection-row-data p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-row-header{
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+  border-radius: 0px;
+  margin: 10px 0px;
+  padding: 15px 20px;
+  background-color: hwb(207 7% 67% / 0.984);
+  color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+}
+
+.collection-row-header {
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.2); */
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+  border-radius: 0px;
+  margin: 10px 0px;
+  padding: 15px 20px;
+  background-color: hwb(207 7% 67% / 0.984);
+  color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+}
+.corousel-row-data{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #47474718;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px;
+  padding: 5px;
+  background-color: #fffffffb;
+}
+
+.form-container {
+  width: 100%;
+  position: relative;
+}
+
+.form-container.hidden {
+  display: none;
+}
+
+.options-containers{
+  background: rgb(255, 255, 255);
+  padding: 1px;
+  align-items: baseline;
+}
+
+form button, .uploadFile{
+  font-family: 600 !important;
+  background-color: #e0e0e0 !important;
+  color: black !important;
+}
+
+.options-containers Button{
+  margin-right: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  background-color: #1b4061;
+  text-transform: capitalize;
+}
+
+.options-containers Button:hover{
+  color: white;
+  background-color: #1b4061d8;
+}
+
+.edit-button {
+  background: white;
+  color: black;
+}
+
+.carousel-button  {
+  background: #eeeeee8c !important;
+  border-radius: 50% !important;
+}
+
+.form-control {
+  width: max-content;
+}
+
+.addCorouselBox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white !important;
+  border-radius: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin: auto;
+  background: black !important;
+  font-weight: 600 !important;
+  font-family: monospace !important;
+}
