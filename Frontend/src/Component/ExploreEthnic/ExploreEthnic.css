@@ -2,5 +2,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+<<<<<<< HEAD
     margin: 0px 210px;
+=======
+    margin: 0px 10px;
+>>>>>>> 854a6f3 (First commit)
   }

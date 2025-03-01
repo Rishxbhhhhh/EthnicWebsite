@@ -18,7 +18,11 @@
     "@mui/material": "^6.3.0",
     "@mui/styled-engine-sc": "^6.1.7",
     "@mui/x-date-pickers": "^7.23.3",
+<<<<<<< HEAD
     "@reduxjs/toolkit": "^2.5.0",
+=======
+    "@reduxjs/toolkit": "^2.6.0",
+>>>>>>> 854a6f3 (First commit)
     "axios": "^1.7.8",
     "bootstrap": "^5.3.3",
     "date-fns": "^4.1.0",

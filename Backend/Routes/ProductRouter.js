@@ -214,7 +214,11 @@ router.get('/new-arrivals', async (req, res) => {
     const cutoffDate = new Date();
     cutoffDate.setDate(cutoffDate.getDate() - days);
 
+<<<<<<< HEAD
     const newArrivals = await Products.find({ dateCreated: { $gte: cutoffDate } }).populate("collection");
+=======
+    const newArrivals = await Products.find().populate("collection");
+>>>>>>> 854a6f3 (First commit)
 
     if (newArrivals.length === 0) {
       return res.status(404).json({ success: false, message: 'No new arrivals found' });
