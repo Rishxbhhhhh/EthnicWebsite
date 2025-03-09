@@ -17,7 +17,7 @@ const NewArrivals = () => {
       } catch (error) {
         console.error("Error fetching new arrivals:", error);
         setLoading(false);
-      }
+      } 
     };
     fetchNewArrivals();
   }, []);
